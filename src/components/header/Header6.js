@@ -413,7 +413,7 @@ const Header6 = () => {
                                                     <div className="solution-menu-banner">
                                                         <div className="banner-content">
                                                             <h3>All-in-one platform tailored for growing businesses..</h3>
-                                                            <Link href="/contact" className="primary-btn1">
+                                                            <Link href="https://calendly.com/krepsoftware/krep-demo-meeting" className="primary-btn1">
                                                                 <span>Request a demo
                                                                     <svg width={10} height={10} viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" strokeWidth="1.5" strokeLinecap="round" />
@@ -437,20 +437,20 @@ const Header6 = () => {
                                 </li>
                                 
                                 <li className={`menu-item-has-children position-inherit ${isHomeActive ? "active" : ""}`}>
-                                    <Link href="https://krepsoftware.co.ke/">
+                                    <Link href="/contact">
                                         Contact Us
                                         <i className=""></i>
                                     </Link>
                                 </li>
                             </ul>
                             <div className="btn-and-contact-area d-lg-none d-flex">
-                                <a href="#" className="demo-btn">
+                                <a href="https://calendly.com/krepsoftware/krep-demo-meeting" className="demo-btn">
                                     Request a Demo
                                     <svg width={10} height={10} viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" strokeWidth="1.5" strokeLinecap="round" />
                                     </svg>
                                 </a>
-                                <a href="#" className="primary-btn3 three btn-hover">
+                                <a href="https://krepsoftware.co.ke/" className="primary-btn3 three btn-hover">
                                     Login
                                     <svg width={16} height={16} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.4118 7.41891C11.4356 6.67225 12.1022 5.46387 12.1022 4.10256C12.1022 1.84041 10.2618 0 7.99969 0C5.73753 0 3.89713 1.84041 3.89713 4.10256C3.89713 5.46387 4.56378 6.67225 5.58759 7.41891C3.04259 8.39281 1.23047 10.8603 1.23047 13.7436C1.23047 14.9878 2.24269 16 3.48687 16H12.5125C13.7567 16 14.7689 14.9878 14.7689 13.7436C14.7689 10.8603 12.9568 8.39281 10.4118 7.41891ZM5.12791 4.10256C5.12791 2.51906 6.41619 1.23078 7.99969 1.23078C9.58319 1.23078 10.8715 2.51906 10.8715 4.10256C10.8715 5.68606 9.58319 6.97437 7.99969 6.97437C6.41619 6.97437 5.12791 5.68606 5.12791 4.10256ZM12.5125 14.7692H3.48687C2.92134 14.7692 2.46125 14.3091 2.46125 13.7436C2.46125 10.6896 4.94575 8.20509 7.99972 8.20509C11.0537 8.20509 13.5382 10.6896 13.5382 13.7436C13.5382 14.3091 13.0781 14.7692 12.5125 14.7692Z" />
@@ -460,13 +460,13 @@ const Header6 = () => {
                             </div>
                         </div>
                         <div className="nav-right">
-                            <a href="#" className="demo-btn d-lg-flex d-none">
+                            <a href="https://calendly.com/krepsoftware/krep-demo-meeting" className="demo-btn d-lg-flex d-none">
                                 Request a Demo
                                 <svg width={10} height={10} viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" strokeWidth="1.5" strokeLinecap="round" />
                                 </svg>
                             </a>
-                            <a href="#" className="primary-btn3 three btn-hover d-lg-flex d-none">
+                            <a href="https://krepsoftware.co.ke/" className="primary-btn3 three btn-hover d-lg-flex d-none">
                                 Login
                                 <svg width={16} height={16} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.4118 7.41891C11.4356 6.67225 12.1022 5.46387 12.1022 4.10256C12.1022 1.84041 10.2618 0 7.99969 0C5.73753 0 3.89713 1.84041 3.89713 4.10256C3.89713 5.46387 4.56378 6.67225 5.58759 7.41891C3.04259 8.39281 1.23047 10.8603 1.23047 13.7436C1.23047 14.9878 2.24269 16 3.48687 16H12.5125C13.7567 16 14.7689 14.9878 14.7689 13.7436C14.7689 10.8603 12.9568 8.39281 10.4118 7.41891ZM5.12791 4.10256C5.12791 2.51906 6.41619 1.23078 7.99969 1.23078C9.58319 1.23078 10.8715 2.51906 10.8715 4.10256C10.8715 5.68606 9.58319 6.97437 7.99969 6.97437C6.41619 6.97437 5.12791 5.68606 5.12791 4.10256ZM12.5125 14.7692H3.48687C2.92134 14.7692 2.46125 14.3091 2.46125 13.7436C2.46125 10.6896 4.94575 8.20509 7.99972 8.20509C11.0537 8.20509 13.5382 10.6896 13.5382 13.7436C13.5382 14.3091 13.0781 14.7692 12.5125 14.7692Z" />
