@@ -30,8 +30,9 @@ const Footer7 = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-7 col-md-10">
                         <div className="footer-top">
-                            <h2>Let’s Talk About Your Dreams.</h2>
-                            <a href="mailto:info@examplegmail.com" id="celebrateBtn" className="mail-area">info@examplegmail.com</a>
+                            <h2>Tech that gets you!</h2>
+                            {/* <h3>Tech that get you</h3> */}
+                            <a href="mailto:info@krepsoftware.co.ke" id="celebrateBtn" className="mail-area">info@krepsoftware.co.ke</a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +41,7 @@ const Footer7 = () => {
                         <div className="col-lg-3 col-md-6 col-sm-8">
                             <div className="company-logo-area">
                                 <img src="/assets/img/footer-logo3.svg" alt="" />
-                                <h4>To Create Digital Art &amp; Modern Design.</h4>
+                                <h4>We would love to hear from you!.</h4>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-4 d-flex justify-content-lg-center">
@@ -50,8 +51,8 @@ const Footer7 = () => {
                                 </div>
                                 <ul className="widget-list">
                                     <li><Link href="/about">About us</Link></li>
-                                    <li><Link href="/portfolio/classic">My Portfolio</Link></li>
-                                    <li><Link href="/portfolio">News &amp; Insight</Link></li>
+                                    <li><Link href="#">Privacy Policy</Link></li>
+                                    <li><Link href="/">Terms & Consitions</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
@@ -59,14 +60,14 @@ const Footer7 = () => {
                         <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-center">
                             <div className="footer-widget">
                                 <div className="widget-title">
-                                    <h3>More Work</h3>
+                                    <h3>Let's Connect</h3>
                                 </div>
                                 <ul className="widget-list">
-                                    <li><a href="https://dribbble.com/">Dribbble</a></li>
-                                    <li><a href="https://www.behance.net/">Behance</a></li>
-                                    <li><a href="https://www.pinterest.com/">Pinterest</a></li>
-                                    <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-                                    <li><a href="https://www.producthunt.com/">Product Hunt</a></li>
+                                    <li><a href="https://dribbble.com/">LinkedIn</a></li>
+                                    <li><a href="/">Instagram</a></li>
+                                    <li><a href="/">Facebook</a></li>
+                                    <li><a href="https://www.linkedin.com/">X(Twitter)</a></li>
+                                    <li><a href="/">Tiktok</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -87,7 +88,7 @@ const Footer7 = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="copyright-and-social-area">
-                        <p>Copyright 2025 <a href="https://www.egenslab.com/">Egens Lab</a> | All Right Reserved.</p>
+                        <p>Copyright 2025 <a href="krepsoftware.co.ke">KREP Software | Yunovia Group</a> | All Right Reserved.</p>
                         <div className="terms-condition">
                             <svg width={12} height={12} viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                 <g>
