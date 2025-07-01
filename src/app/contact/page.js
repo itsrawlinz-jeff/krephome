@@ -1,11 +1,11 @@
-import Home3Footer from '@/components/Footer/Home3Footer'
-import Header3 from '@/components/header/Header3'
+import Footer7 from '@/components/Footer/Footer7'
+import Header6 from '@/components/header/Header6'
 import React from 'react'
 
 const ContactPage = () => {
     return (
         <>
-            <Header3 />
+            <Header6 />
 
             {/* Breadcrumb Section Start */}
             <div className="breadcrumb-section mb-130">
@@ -13,7 +13,7 @@ const ContactPage = () => {
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-lg-8">
                             <div className="banner-content">
-                                <h1>Let’s Build <br /> Flexible Project</h1>
+                                <h1>We would Love<br /> To Hear From You!</h1>
                                 <ul className="breadcrumb-list">
                                     <li><a href="/">Home</a></li>
                                     <li>
@@ -30,90 +30,40 @@ const ContactPage = () => {
             </div>
             {/* Breadcrumb Section End */}
             {/* Contact Page Start */}
-            <div className="contact-page-top mb-80">
-                <div className="container">
-                    <div className="row g-4">
-                        <div className="col-lg-4 col-md-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="single-contact">
-                                <h4>New York</h4>
-                                <a href="https://www.google.com/maps">123 Business St., Suite 456, City, State, ZIP Code, Country</a>
-                                <ul className="contact-list">
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-call-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Call 24/7 Hours</span>
-                                            <h6><a href="tel:+997636844563">+99-763 684 4563 </a></h6>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-mail-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Send Us Mail</span>
-                                            <h6><a href="mailto:info@example.com">info@example.com</a></h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="single-contact two">
-                                <h4>Australia</h4>
-                                <a href="https://www.google.com/maps">123 Innovation Road, Suite 101Tech City, State, ZIP CodeCountry</a>
-                                <ul className="contact-list">
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-call-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Call 24/7 Hours</span>
-                                            <h6><a href="tel:+997636844563">+99-763 684 4563 </a></h6>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-mail-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Send Us Mail</span>
-                                            <h6><a href="mailto:info@example.com">info@example.com</a></h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="single-contact three">
-                                <h4>London, UK</h4>
-                                <a href="https://www.google.com/maps">123 Business St., Suite 456, City, State, ZIP Code, Country</a>
-                                <ul className="contact-list">
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-call-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Call 24/7 Hours</span>
-                                            <h6><a href="tel:+997636844563">+99-763 684 4563 </a></h6>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="icon">
-                                            <img src="/assets/img/home1/icon/contact-mail-icon.svg" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <span>Send Us Mail</span>
-                                            <h6><a href="mailto:info@example.com">info@example.com</a></h6>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           <div className="contact-page-top mb-80">
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-lg-6 col-md-8 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <div className="single-contact">
+          <h4>Nairobi, Kenya</h4>
+          <a href="https://maps.google.com/?q=Mitsumi+Business+Park+6th+Floor+Nairobi+Kenya">Mitsumi Business Park, 6th Floor</a>
+          <ul className="contact-list">
+            <li>
+              <div className="icon">
+                <img src="/assets/img/home1/icon/contact-call-icon.svg" alt="Call Icon" />
+              </div>
+              <div className="content">
+                <span>Call Us</span>
+                <h6><a href="tel:+254117888890">+254 117 8888 90</a></h6>
+                <h6><a href="tel:+254790064458">+254 790 064 458</a></h6>
+              </div>
+            </li>
+            <li>
+              <div className="icon">
+                <img src="/assets/img/home1/icon/contact-mail-icon.svg" alt="Mail Icon" />
+              </div>
+              <div className="content">
+                <span>Email</span>
+                <h6><a href="mailto:info@krepsoftware.co.ke">info@krepsoftware.co.ke</a></h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
             <div className="contact-form-area mb-130">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -131,82 +81,83 @@ const ContactPage = () => {
                                         <div className="col-md-6">
                                             <div className="form-inner">
                                                 <label>Full Name</label>
-                                                <input type="text" placeholder="Mr. Daniel" />
+                                                <input type="text" placeholder="Mr. Daniel Karimi" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-inner">
                                                 <label>Company</label>
-                                                <input type="text" placeholder="Egenslab" />
+                                                <input type="text" placeholder="Yunovia Group" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-inner">
                                                 <label>Company Email</label>
-                                                <input type="email" placeholder="info@example.com" />
+                                                <input type="email" placeholder="info@krepsoftware.co.ke" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-inner">
                                                 <label>Phone</label>
-                                                <input type="text" placeholder="+99 087 *** ** ***" />
+                                                <input type="text" placeholder="+254 117 *** ** ***" />
                                             </div>
                                         </div>
                                         <div className="col-md-12">
-                                            <div className="form-inner2">
-                                                <label>How can We Assist You?</label>
-                                                <ul>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck1" />
-                                                            <label className="form-check-label" htmlFor="contactCheck1">
-                                                                IT Consulitng
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck2" />
-                                                            <label className="form-check-label" htmlFor="contactCheck2">
-                                                                UI/UX Design
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck3" />
-                                                            <label className="form-check-label" htmlFor="contactCheck3">
-                                                                Cloud Solution
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck4" />
-                                                            <label className="form-check-label" htmlFor="contactCheck4">
-                                                                AI &amp; Machine Learning
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck5" />
-                                                            <label className="form-check-label" htmlFor="contactCheck5">
-                                                                Technical Support
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" defaultValue id="contactCheck6" />
-                                                            <label className="form-check-label" htmlFor="contactCheck6">
-                                                                DevOps Services
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+  <div className="form-inner2">
+    <label>How Can We Assist You with KREP Software?</label>
+    <ul>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck1" />
+          <label className="form-check-label" htmlFor="contactCheck1">
+            CRM Implementation
+          </label>
+        </div>
+      </li>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck2" />
+          <label className="form-check-label" htmlFor="contactCheck2">
+            ERP Integration
+          </label>
+        </div>
+      </li>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck3" />
+          <label className="form-check-label" htmlFor="contactCheck3">
+            Staff Training & Onboarding
+          </label>
+        </div>
+      </li>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck4" />
+          <label className="form-check-label" htmlFor="contactCheck4">
+            Workflow Automation
+          </label>
+        </div>
+      </li>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck5" />
+          <label className="form-check-label" htmlFor="contactCheck5">
+            Custom Module Development
+          </label>
+        </div>
+      </li>
+      <li>
+        <div className="form-check">
+          <input className="form-check-input" type="checkbox" defaultValue id="contactCheck6" />
+          <label className="form-check-label" htmlFor="contactCheck6">
+            Support & Maintenance
+          </label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
                                         <div className="col-md-12">
                                             <div className="form-inner">
                                                 <label>Message</label>
@@ -238,7 +189,7 @@ const ContactPage = () => {
             {/* Contact Page End */}
 
 
-            <Home3Footer />
+            <Footer7 />
         </>
     )
 }
