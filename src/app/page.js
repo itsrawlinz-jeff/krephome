@@ -15,26 +15,24 @@ export default function Home() {
     useEffect(() => {
         document.body.classList.add("digital-agency");
 
-        // Inject Calendly badge widget script
+        // Inject Calendly script
         const script = document.createElement("script");
         script.src = "https://assets.calendly.com/assets/external/widget.js";
         script.async = true;
-        script.onload = () => {
-            if (window.Calendly) {
-                window.Calendly.initBadgeWidget({
-                    url: 'https://calendly.com/krepsoftware/krep-demo-meeting?text_color=134a2f&primary_color=17533a',
-                    text: 'Schedule time with me',
-                    color: '#035b20',
-                    textColor: '#ffffff',
-                });
-            }
-        };
         document.head.appendChild(script);
 
+        // Clean up if necessary
         return () => {
             document.body.classList.remove("digital-agency");
         };
     }, []);
+
+    const openCalendly = (e) => {
+        e.preventDefault();
+        window.Calendly && window.Calendly.initPopupWidget({
+            url: 'https://calendly.com/krepsoftware/krep-demo-meeting?hide_gdpr_banner=1&primary_color=054a18'
+        });
+    };
 
     return (
         <>
@@ -47,6 +45,14 @@ export default function Home() {
             <Home6processSection />
             <Home6PricingSection />
             <Home6Faq />
+
+            {/* Calendly Button */}
+            <div className="text-center my-5">
+                <a href="#" onClick={openCalendly} className="btn btn-success px-4 py-2">
+                    Schedule a Demo with KREP Software
+                </a>
+            </div>
+
             <Footer7 />
         </>
     );
