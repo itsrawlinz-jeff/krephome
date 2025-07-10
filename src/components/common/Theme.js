@@ -21,18 +21,8 @@ const ThemeSwitch = () => {
     document.body.classList.toggle("dark", !isDarkMode);
   };
 
-  return (
-    <div
-      className={`tt-style-switch ${isDarkMode ? "index-dark" : ""}`}
-      onClick={toggleTheme}
-    >
-      <i
-        className={`bi ${
-          isDarkMode ? "bi-moon-fill" : " bi-brightness-low-fill"
-        }`}
-      />
-    </div>
-  );
+  
+ 
 };
 
 export default ThemeSwitch;

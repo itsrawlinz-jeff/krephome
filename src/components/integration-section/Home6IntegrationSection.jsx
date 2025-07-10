@@ -35,7 +35,7 @@ const Home6IntegrationSection = () => {
                                             as="h2"
                                             className="counter"
                                         />
-                                        <span>M+</span>
+                                        <span>K+</span>
                                     </div>
                                     <span>Total Download</span>
                                 </div>
@@ -52,7 +52,7 @@ const Home6IntegrationSection = () => {
                                     <div className="number">
                                         <Counter
                                             start={0}
-                                            end={6}
+                                            end={60}
                                             speed={50}
                                             forwardedRef={ref4}
                                             as="h2"
@@ -75,7 +75,7 @@ const Home6IntegrationSection = () => {
                                     <div className="number">
                                         <Counter
                                             start={0}
-                                            end={10}
+                                            end={3}
                                             speed={50}
                                             forwardedRef={ref5}
                                             as="h2"
@@ -100,15 +100,15 @@ const Home6IntegrationSection = () => {
                                     <div className="number">
                                         <Counter
                                             start={0}
-                                            end={2}
+                                            end={20}
                                             speed={50}
                                             forwardedRef={ref6}
                                             as="h2"
                                             className="counter"
                                         />
-                                        <span>M+</span>
+                                        <span>+</span>
                                     </div>
-                                    <span>Years of Service</span>
+                                    <span>Happy Customers</span>
                                 </div>
                             </div>
                         </div>

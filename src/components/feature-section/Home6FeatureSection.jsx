@@ -39,7 +39,7 @@ const Home6FeatureSection = () => {
                                         <div className="social-area">
                                             <div className="social-wrapper">
                                                 <div className="company-logo">
-                                                    <img src="/assets/img/home6/home6-feature-company-logo.svg" alt="KREP Communication Hub" />
+                                                    <img src="/assets/img/home6/company-logo.svg" alt="KREP Communication Hub" />
                                                 </div>
                                                 <ul className="social-list">
                                                     <li><div className="icon"><img src="/assets/img/home6/icon/mail-logo.svg" alt="Email" /></div><span>Email</span></li>
@@ -103,7 +103,7 @@ const Home6FeatureSection = () => {
                                         <div className="social-area">
                                             <div className="social-wrapper">
                                                 <div className="company-logo">
-                                                    <img src="/assets/img/home6/home6-feature-company-logo.svg" alt="KREP HRM" />
+                                                    <img src="/assets/img/home6/company-logo.svg" alt="KREP HRM" />
                                                 </div>
                                                 <ul className="social-list">
                                                     <li><div className="icon"><img src="/assets/img/home6/icon/mail-logo.svg" alt="HR Email" /></div><span>HR Email</span></li>
