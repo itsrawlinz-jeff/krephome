@@ -164,8 +164,8 @@ const Header6 = () => {
                 <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
                     <div className="sidebar-logo-wrap">
                         <Link href="/">
-                            <img alt="image" src="/assets/img/right-sidebar-sm-logo.svg" className="light" />
-                            <img alt="image" src="/assets/img/right-sidebar-sm-logo-white.svg" className="dark" />
+                            <img alt="image" src="/assets/img/header-logo2.svg" className="light" />
+                            <img alt="image" src="/assets/img/header-logo2.svg" className="dark" />
                         </Link>
                     </div>
                     <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
@@ -241,7 +241,7 @@ const Header6 = () => {
                 <div className="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
                     <div className="company-logo">
                         <Link href="/" className="logo-dark"><img alt="image" className="img-fluid" src="/assets/img/header-logo2.svg" /></Link>
-                        <Link href="/" className="logo-light"><img alt="image" className="img-fluid" src="/assets/img/header-logo2-white.svg" /></Link>
+                        <Link href="/" className="logo-light"><img alt="image" className="img-fluid" src="/assets/img/header-logo2.svg" /></Link>
                         <div className="logo-content">
                             <svg width={20} height={6} viewBox="0 0 20 6" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 2.5C0.723858 2.5 0.5 2.72386 0.5 3C0.5 3.27614 0.723858 3.5 1 3.5V2.5ZM20 3L15 0.113249V5.88675L20 3ZM1 3.5H15.5V2.5H1V3.5Z" />
@@ -253,8 +253,8 @@ const Header6 = () => {
                         <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
                             <div className="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
                                 <Link href="https://krepsoftware.co.ke/" className="mobile-logo-wrap">
-                                    <img alt="image" className="img-fluid light" src="/assets/img/header-logo.svg" />
-                                    <img alt="image" className="img-fluid dark" src="/assets/img/header-logo-white.svg" />
+                                    <img alt="image" className="img-fluid light" src="/assets/img/header-logo2.svg" />
+                                    <img alt="image" className="img-fluid dark" src="/assets/img/header-logo2.svg" />
                                 </Link>
                                 <div className="menu-close-btn" onClick={toggleSidebar}>
                                     <i className="bi bi-x" />
@@ -270,7 +270,7 @@ const Header6 = () => {
                                 
                                 <li><a href="#pricing" onClick={scrollToPricing}>Pricing</a></li>
                                 <li className={`menu-item-has-children position-inherit ${pathname === "https://krepsoftware.co.ke/authentication/" ? "active" : ""}`}>
-                                    <Link href="/service" className="drop-down">Features
+                                    <Link href="#" className="drop-down">Features
                                         <i className="bi bi-caret-down-fill"></i>
                                     </Link>
                                     <i onClick={() => toggleMenu("solution")} className={`bi bi-${state.activeMenu === "solution" ? "dash" : "plus"} dropdown-icon`} />
