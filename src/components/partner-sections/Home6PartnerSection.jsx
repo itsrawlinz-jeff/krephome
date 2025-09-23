@@ -13,7 +13,7 @@ const Home6PartnerSection = () => {
                         <div className="marquee light">
                             <div className="marquee__group">
                                 <a href="#"><img src="/assets/img/home1/partner-01.png" alt="Business Partner Logo 1" /></a>
-                                <a href="#"><img src="/assets/img/home1/Rawlinz-Designs.jpg" alt="Business Partner Logo 2" /></a>
+                                <a href="#"><img src="/assets/img/home1/Tay.jpg" alt="Business Partner Logo 2" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-03.png" alt="Business Partner Logo 3" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-04.png" alt="Business Partner Logo 4" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-05.png" alt="Business Partner Logo 5" /></a>
@@ -21,7 +21,7 @@ const Home6PartnerSection = () => {
                             </div>
                             <div aria-hidden="true" className="marquee__group">
                                 <a href="#"><img src="/assets/img/home1/partner-01.png" alt="" /></a>
-                                <a href="#"><img src="/assets/img/home1/Rawlinz-Designs.jpg" alt="" /></a>
+                                <a href="#"><img src="/assets/img/home1/Tay.jpg" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-03.png" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-04.png" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-05.png" alt="" /></a>
@@ -31,14 +31,14 @@ const Home6PartnerSection = () => {
 
                         <div className="marquee dark">
                             <div className="marquee__group">
-                                <a href="#"><img src="/assets/img/home1/RAWLINZ-PARTNER.JPG" alt="Client Logo 1" /></a>
+                                <a href="#"><img src="/assets/img/home1/Tay.jpg"alt="Client Logo 1" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-03.png" alt="Client Logo 3" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-04.png" alt="Client Logo 4" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-05.png" alt="Client Logo 5" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-06.png" alt="Client Logo 6" /></a>
                             </div>
                             <div aria-hidden="true" className="marquee__group">
-                                <a href="#"><img src="/assets/img/home1/RAWLINZ-PARTNER.JPG" alt="" /></a>
+                                <a href="#"><img src="/assets/img/home1/Tay.jpg" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-03.png" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-04.png" alt="" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-05.png" alt="" /></a>
