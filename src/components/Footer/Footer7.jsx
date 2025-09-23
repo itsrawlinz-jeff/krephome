@@ -50,7 +50,6 @@ const Footer7 = () => {
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul className="widget-list">
-                                    <li><Link href="/about">About us</Link></li>
                                     <li><Link href="#">Privacy Policy</Link></li>
                                     <li><Link href="/">Terms & Consitions</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
