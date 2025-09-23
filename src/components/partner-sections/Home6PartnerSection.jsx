@@ -31,7 +31,8 @@ const Home6PartnerSection = () => {
 
                         <div className="marquee dark">
                             <div className="marquee__group">
-                                <a href="#"><img src="/assets/img/home1/Tay.jpg"alt="Client Logo 1" /></a>
+                                <a href="#"><img src="/assets/img/home1/partner-light-01.png" alt="Client Logo 1" /></a>
+                                 <a href="#"><img src="/assets/img/home1/Tay.jpg"alt="Client Logo 2" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-03.png" alt="Client Logo 3" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-04.png" alt="Client Logo 4" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-light-05.png" alt="Client Logo 5" /></a>
