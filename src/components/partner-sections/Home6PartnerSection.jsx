@@ -13,7 +13,7 @@ const Home6PartnerSection = () => {
                         <div className="marquee light">
                             <div className="marquee__group">
                                 <a href="#"><img src="/assets/img/home1/partner-01.png" alt="Business Partner Logo 1" /></a>
-                                <a href="#"><img src="/assets/img/home1/RAWLINZ-PARTNER.JPG" alt="Business Partner Logo 2" /></a>
+                                <a href="#"><img src="/assets/img/home1/RAWLINZ-PARTNER.jpg" alt="Business Partner Logo 2" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-03.png" alt="Business Partner Logo 3" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-04.png" alt="Business Partner Logo 4" /></a>
                                 <a href="#"><img src="/assets/img/home1/partner-05.png" alt="Business Partner Logo 5" /></a>
